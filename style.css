@@ -145,6 +145,7 @@ p.header-p{
     height: 60vh;
     width: 100vw;
     z-index: -1;
+    clip-path: polygon(0% 100%, 40% 0%, 60% 0%, 100% 100%);
 }
 
 
@@ -289,7 +290,7 @@ p.header-p{
   }
   .footer-pic{
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
   }
 }
 
