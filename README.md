@@ -1,1 +1,1 @@
-# odin-homepage
+# Odin Homepage
