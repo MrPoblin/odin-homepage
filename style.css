@@ -57,8 +57,10 @@ body {
     --main-color: #64a2a3;
 }
 
+html,
 body{
     overflow-x: hidden;
+    width: 100%;
 }
 
 p{
@@ -311,11 +313,29 @@ p.header-p{
     aspect-ratio: 5 / 8;
     background-size: cover; 
     background-position: center; 
-}
-.name{
-  color: white;
-  font-size: 7.5rem;
-  position: inherit;
-  
-}
+  }
+  .name{
+    color: white;
+    font-size: 7.5rem;
+    position: inherit;
+  }
+  .tilted-section{
+    background-color: var(--main-color);
+    position: absolute;
+    height: 60vh;
+    width: 100vw;
+    left: 0rem;
+    top: 0rem;
+    z-index: -1;
+    rotate: 0deg;
+    
+  }
+  .projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+  .screenshot-text{
+    padding: 1rem;
+    font-size: 3rem;
+  }
 }
