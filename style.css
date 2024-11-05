@@ -298,3 +298,24 @@ p.header-p{
     width: 110vw;
   }
 }
+
+@media (max-width: 560px){
+  :root{
+    --site-padding: 2rem;
+  }
+  .header{
+    display: block;
+  }
+  .profile-pic{
+    width: 100%;
+    aspect-ratio: 5 / 8;
+    background-size: cover; 
+    background-position: center; 
+}
+.name{
+  color: white;
+  font-size: 7.5rem;
+  position: inherit;
+  
+}
+}
