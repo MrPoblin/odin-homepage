@@ -288,6 +288,7 @@ p.header-p{
     padding: var(--site-padding);
   }
   .footer-pic{
+    width: 100%;
     object-fit: cover;
   }
 }
