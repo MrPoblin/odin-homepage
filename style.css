@@ -144,12 +144,7 @@ p.header-p{
     position: absolute;
     height: 60vh;
     width: 100vw;
-    left: -7rem;
-    top: -20rem;
     z-index: -1;
-    scale: 1.2;
-    rotate: -10deg;
-    
 }
 
 
@@ -276,7 +271,6 @@ p.header-p{
 @media (orientation: portrait){
   .header{
     flex-direction: column;
-    background-color: transparent;
     -webkit-box-shadow: none; 
     box-shadow: none;
   }
@@ -296,14 +290,11 @@ p.header-p{
   .footer-pic{
     object-fit: cover;
   }
-  .tilted-section{
-    width: 110vw;
-  }
 }
 
 @media (max-width: 560px){
   :root{
-    --site-padding: 2rem;
+    --site-padding: 1.5rem;
   }
   .header{
     display: block;
@@ -323,19 +314,22 @@ p.header-p{
     background-color: var(--main-color);
     position: absolute;
     height: 60vh;
-    width: 100vw;
-    left: 0rem;
-    top: 0rem;
     z-index: -1;
-    rotate: 0deg;
     
   }
   .projects{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-rows: repeat(6, 40rem);
   }
   .screenshot-text{
     padding: 1rem;
+    font-size: 3rem;
+  }
+  .footer-desc{
+    font-size: 1.5rem;
+  }
+  .contact-me{
     font-size: 3rem;
   }
 }
